@@ -1,0 +1,27 @@
+{
+  "name": "demo01",
+  "version": "1.0.0",
+  "description": "我的第一个yarn项目",
+  "main": "index.js",
+  "author": "jiajie",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron-webpack dev",
+    "build": "electron-webpack && electron-builder",
+    "build:mac": "electron-webpack && electron-builder --mac",
+    "build:win": "electron-webpack && electron-builder --win"
+  },
+  "dependencies": {
+    "element-ui": "^2.8.2",
+    "source-map-support": "^0.5.12",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.6"
+  },
+  "devDependencies": {
+    "electron": "^5.0.2",
+    "electron-builder": "^20.41.0",
+    "electron-webpack": "^2.6.2",
+    "electron-webpack-vue": "^2.3.0",
+    "webpack": "^4.32.2"
+  }
+}
